@@ -961,10 +961,15 @@ Congrats! You have finished your first Rails app that can handle full CRUD funct
 ## Checks for Understanding
 
 1. Define CRUD.
+CREATE READ UPDATE DELETE / Basic format to websites allows users to create a form read a form update a form and delete a form
 1. Define MVC.
+Model View Controllor is the format to CRUD apps. A user sees the view of what they want to do *delete button/create button etc.* the model is the actual button and the controllor carries out that action but does not show the view of what it is doing only until task is complete does the viewer see the results
 1. What three files would you need to create/modify for a Rails application to respond to a `GET` request to `/tasks`, assuming you have a `Task` model.
+config/routes.rb new.html.erb and task_controllor.rb
 1. What are params? Where do they come from?
+params come from activerecord and are stored as a database of user inputs
 1. Check out your routes. Why do we need two routes each for creating a new Task and editing an existing Task?
+One route to send the task to and one route to carry out and save
 
 
 ### Completed Repository
